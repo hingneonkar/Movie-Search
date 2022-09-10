@@ -2,6 +2,7 @@
 let movieNameRef = document.getElementById("movie-name");
 let searchBtn = document.getElementById("search-btn");
 let result = document.getElementById("result");
+const key = "35437c2c";
 
 //Function to fetch data from API
 let getMovie = () => {
